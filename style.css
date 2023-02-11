@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    justify-content: center;
+    width: 80%;
+    border: 1px;
+    border-style: solid;
+    display: flex;
+}
+
+.information {
+    border: 1px;
+    border-style: solid;
+    background-color: blue;
+    color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.register-form {
+    border: 1px;
+    border-style: solid;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form div {
+    flex-basis: 50%;
+}
+
+.name {
+    display: flex;
+}
+
+input {
+    width: 100%;
+  }
+
+  h1, p {
+    padding: 10px;
+  }
+
+  .checkbox {
+    text-align: left;
+  }
